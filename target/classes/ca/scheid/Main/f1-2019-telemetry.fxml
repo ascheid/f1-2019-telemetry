@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.scheid.controller.ScreenController">
+   <children>
+      <Pane prefHeight="190.0" prefWidth="240.0">
+         <children>
+            <ProgressBar id="throttle" fx:id="throttleBar" layoutY="30.0" prefHeight="100.0" prefWidth="130.0" progress="0.35" rotate="-90.0" />
+            <ProgressBar id="brake" fx:id="brakeBar" layoutX="110.0" layoutY="30.0" prefHeight="100.0" prefWidth="131.0" progress="0.45" rotate="-90.0" style="-fx-accent: red;" />
+            <Slider id="steer" fx:id="steeringSlider" layoutX="15.0" layoutY="155.0" max="1.0" min="-1.0" prefHeight="30.0" prefWidth="210.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
