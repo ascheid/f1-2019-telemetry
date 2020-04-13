@@ -1,0 +1,3 @@
+#rev-lights > .bar {
+-fx-background-color: linear-gradient(to right, green 30%,	yellow 55%,	red 100%);
+}
